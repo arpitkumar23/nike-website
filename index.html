@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nike Air Max Infinity</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+  <header>
+    <div class="logo">
+      <img src="https://logos-world.net/wp-content/uploads/2020/04/Nike-Logo.png" alt="Nike Logo">
+    </div>
+    <button class="menu-toggle" aria-label="Toggle Navigation" onclick="toggleMenu()">☰</button>
+    <nav>
+      <ul id="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header> 
+  <section id="hero" class="parallax">
+    <div class="hero-content">
+      <h1>Nike Air Max Infinity</h1>
+      <p>Redefine your stride with cutting-edge comfort and bold design.</p>
+      <button onclick="openModal()">Shop Now</button>
+    </div>
+  </section>
+
+  <section id="features">
+    <h2>Key Features</h2>
+    <div class="features-container">
+      <div class="feature">
+        <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0d21a1a9-5c07-454a-8853-2bf1fa9a6d52/ZOOM+FLY+6.png" alt="Revolutionary Comfort Image" />
+        <h3>Revolutionary Comfort</h3>
+        <p>Enhanced cushioning for all-day wear.</p>
+      </div>
+      <div class="feature">
+        <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/59b241b2-a1c1-4fbe-ae56-5c102c24d902/M+NIKE+AIR+ZOOM+TR+1.png" alt="Modern Design Image" />
+        <h3>Modern Design</h3>
+        <p>Bold and sleek to match any outfit.</p>
+      </div>
+      <div class="feature">
+        <img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bdb06a79-f930-4c1f-b14c-261ce7004e34/ACG+WATERCAT%2B.png" alt="Durability Image" />
+        <h3>Durability</h3>
+        <p>Engineered to withstand daily use.</p>
+      </div>
+    </div>
+  </section>
+  
+
+</section>
+<section id="testimonials">
+  <h2>What People Are Saying</h2>
+  <div class="testimonials-container">
+      <blockquote>
+          <p>"The best running shoe I've ever owned! Lightweight and supportive."</p>
+          <cite>&mdash; Alex, Athlete</cite>
+      </blockquote>
+      <blockquote>
+          <p>"Stylish and comfortable, perfect for everyday wear."</p>
+          <cite>&mdash; Jordan, Designer</cite>
+      </blockquote>
+  </div>
+</section> 
+ <section id="shop">
+  <div class="shop-container">
+    <div class="shop-header">
+        <h1>Nike Air Max Infinity - Shop Section</h1>
+        <p>Explore the available colorways and sizes of the Nike Air Max Infinity.</p>
+    </div>
+    <div class="shop-grid" id="shopGrid"> 
+    </div>
+    <div class="shop-footer">
+        <a href="https://www.nike.com/" target="_blank">Visit Nike Store for more options</a>
+    </div>
+  </div>
+ </section>
+  <footer>
+    <p>© 2024 Nike, Inc. All Rights Reserved</p>
+    <div class="social-links">
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+    </div>
+  </footer> 
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2>Shop Nike Air Max Infinity</h2>
+      <p>Choose your size and explore all available colors on the Nike store.</p>
+      <a href="https://www.nike.com/in/w/air-max-shoes-a6d8hzy7ok" target="_blank" class="button">Go to Store</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
